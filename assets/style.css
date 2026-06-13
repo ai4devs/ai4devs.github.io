@@ -39,9 +39,11 @@ header {
 }
 .nav { display:flex; align-items:center; justify-content:space-between; padding:16px 0; }
 .logo { display:flex; align-items:center; gap:12px; font-weight:800; letter-spacing:-0.03em; font-size:1.15rem; }
-.logo-mark { width:36px; height:36px; border-radius:10px; display:block; }
-.wordmark { font-family:'Press Start 2P', ui-monospace, monospace; font-size:0.8rem; letter-spacing:0; line-height:1; }
-.wordmark .wm4 { color:var(--brand); }
+.logo-dot {
+  width:14px; height:14px; border-radius:50%; background:var(--brand);
+  box-shadow:0 0 0 5px rgba(243,170,20,.16);
+}
+.logo-accent { color:var(--brand); }
 .nav-links { display:flex; gap:22px; align-items:center; font-size:0.92rem; color:var(--muted); }
 .nav-links a:hover { color: var(--text); }
 
